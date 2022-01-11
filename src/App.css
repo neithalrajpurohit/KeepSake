@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.navigation {
+  background-color:#fdba74;
   color: white;
+  padding: 1rem;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-
-.App-link {
-  color: #61dafb;
+.note-cnt{
+  background-color: #fed7aa;
+  height: 50vh;
+  position: sticky;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin-top: 12px;
+  text-align: left;
+  margin-right:75rem;
+  color: black;
+}
+.serv-img{
+  padding: 2rem;
+  margin-bottom: -5px;
+}
+.sty-rem {
+  text-align: center;
+  opacity: 20%;
+}
+.img{
+  opacity: 25%;
+  padding-left: 40rem;
+}
+.App{
+  background-color: #fed7aa;
+}
+.input-style {
+  font-size: 20px;
+  width: 500px;
+  height: 100px;
+  border-radius: 2px;
+  margin-top:-15rem;
+  margin-left: 30rem;
+  z-index: 100;
+  position: fixed;
+}
+.btn-cmp{
+  position: fixed;
+  left: 58rem;
+  bottom: 34.5rem;
+  z-index: 100;
+}
+.textBox {
+  display: flex;
+  float: left;
+  flex-wrap: wrap;
+  background-color:hsl(180deg 81% 24%);
+  color: aliceblue;
+  margin-left: 10rem;
+  padding: 45px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 25px 7px rgb(0 0 0 / 25%),
+    -5px -5px 30px 7px rgb(0 0 0 / 2%);
+    justify-content: space-around;
+  
+}
+.cls-btn{
+  transform: translate(30px,30px);
+  cursor: pointer;
+  position: relative;
+  height: 30px;
+  width: 30px;
+} 
+.completed{
+  text-decoration: line-through;
+}
+.vd-link{
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  padding-left: 2.5rem;
+  justify-content: space-between;
+}
+.vd-link:hover {
+  background-color: cadetblue;
+  height: 20px;
+  width: 100px;
+  margin-left: 1.5rem;
+  border-radius: 1rem;
+  padding-right: 20px;
+  padding-left: 10px !important;
 }
