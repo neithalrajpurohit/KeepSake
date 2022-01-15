@@ -8,6 +8,7 @@ const[list,setList]=useState([]);
 const[edit,setEdit]=useState("");
 const[show,setShow]=useState(false);
 const[hide,setHide]=useState(false);
+const[trash,setTrash]=useState([]);
     return(
         <NoteContext.Provider
         value = {{
@@ -21,6 +22,8 @@ const[hide,setHide]=useState(false);
             setShow,
             hide,
             setHide,
+            trash,
+            setTrash,
         }}
         >
         {children}
